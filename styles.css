@@ -88,6 +88,7 @@ nav ul {
     font-size: 60px;
     font-weight: 900;
     font-family: "Fraunces", sans-serif;
+    padding-bottom: 20px;
 }
 
 .paw {
@@ -114,3 +115,117 @@ nav ul {
 }
 
 
+
+
+.info {
+    background-color: #fbdfbf;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.item-text {
+    line-height: 2 ;
+    font-size: 20px;
+}
+
+.about-us h2 {
+    color: #87513c;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.leaf-icon,
+.dog-icon {
+    display: flex;
+    width: 500px; 
+    gap: 30px;
+    color: #87513c;
+    font-weight: 400;
+}
+
+.leaf-icon img {
+    width: 60px;
+}
+
+.dog-icon img {
+    width: 60px;
+}
+
+.about-us h3 {
+    font-weight: 800;
+    font-family: "Fraunces", sans-serif;
+    font-size: 25px;
+}
+
+.dog-portrait {
+    display: flex;
+    gap: 20px;
+}
+
+.info-paw {
+    width: 50px;
+    align-self:self-start;
+    margin-top: 30px;
+    margin-right: -50px;
+    
+}
+
+.bone {
+    width: 100px;
+    align-self:self-start;
+    margin-top: -50px;
+    margin-left: -65px;
+}
+.info-image {
+    background-color: #d4844c;
+    width: 400px;
+    height: 450px;
+    border-radius: 200px 200px 0 0;
+    overflow: hidden;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image img {
+    height: 650px;
+    width: auto;
+    margin-bottom: 140px;
+}
+
+.info-text {
+    color: #87513c;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.info-text {
+font-family: "Nunito",sans-serif;
+font-weight: 600;
+font-size: 20px;
+
+}
+
+.info-text h3 {
+    font-family: "Fraunces",sans-serif;
+    font-size: 65px;
+    width: 400px;
+}
+
+.subtitle {
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    line-height: 3;
+}
