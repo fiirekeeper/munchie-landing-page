@@ -229,3 +229,107 @@ font-size: 20px;
     font-weight: 400;
     line-height: 3;
 }
+
+
+
+.products {
+    background-color: #f4c89d;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.paw2 {
+    width: 50px
+}
+
+
+.puppy-daily {
+    width: 350px;
+}
+
+.senior-fit {
+    width: 350px;
+}
+
+.products-text h2 {
+    font-family: "Fraunces",sans-serif;
+    color: #87513c;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.products-text p {
+    color: #87513c;
+     font-family: "Nunito",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.products-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 450px ;
+}
+
+.senior-arc {
+    background-color: #d4844c;
+    width: 400px;
+    height: 350px;
+    border-radius: 150px 150px 150px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left-dog {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-paw {
+    margin-right: -50px;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.center-paw {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 125px;
+}
+
+.right-dog {
+    display: flex;
+    align-items: flex-end;
+}
+
+.right-paw {
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-left: -50px;
+    margin-right: 0;
+}
+
+.right-paw-2 {
+    align-self: flex-end;
+    margin-bottom: -20px;
+    margin-left: -80px;
+    margin-right: 30px;
+}
+
+.right-paw-3 {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: -50px;
+}
