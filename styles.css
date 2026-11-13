@@ -413,3 +413,16 @@ button {
     font-family: inherit;
     padding: 15px;
 }
+
+.footer {
+    background-color: #87513c;
+    padding: 10px;
+}
+
+.copyright p {
+    color: #fbdfbf;
+    font-family: "Nunito",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
